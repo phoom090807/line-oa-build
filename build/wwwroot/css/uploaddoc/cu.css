@@ -1,0 +1,251 @@
+﻿.container.content,
+.container.content > .valign-wrapper {
+    min-height: calc(100vh - 112px - 43px);
+}
+
+ul.progressbar:not(.browser-default) > li {
+    list-style-type: none !important;
+    padding-left: inherit !important;
+}
+
+.acs-container .row.border-bottom {
+    margin-bottom: 0;
+}
+
+.questionnaire .section.work {
+    padding-top: 0;
+}
+
+.input-field {
+    margin-bottom: 0 !important;
+}
+
+.select-wrapper .caret {
+    top: 16px;
+}
+
+.header-bar {
+    border-bottom: unset;
+}
+
+.border-bottom {
+    border-bottom: solid 1px #e7e7e7;
+}
+
+select {
+    display: none !important;
+}
+
+input[type=text]:not(.browser-default) {
+    border-bottom: 1px solid #dee1e0;
+}
+
+.text-remark {
+    font-family: 'KrungsriCondensed';
+    font-size: 10px;
+    color: #7a7a7a;
+    margin: 0;
+}
+
+.progressbar {
+    font-size: 10px;
+}
+
+    .progressbar li.active span {
+        color: #2a2a2a !important;
+        font-family: 'KrungsriCondensedMedium' !important;
+    }
+
+    .progressbar li span {
+        color: #dee1e0 !important;
+        font-family: 'KrungsriCondensedMedium' !important;
+    }
+
+    .progressbar li {
+        list-style: none;
+        float: left;
+        min-width: 30%;
+        position: relative;
+        margin-left: 3%;
+    }
+
+        .progressbar li:before {
+            content: attr(data-val);
+            width: 25px;
+            height: 25px;
+            line-height: 1.8;
+            color: #c8c8c8;
+            font-size: 14px;
+            display: block;
+            text-align: center;
+            margin: -6px auto 10px auto;
+            border-radius: 50%;
+            font-family: 'KrungsriCondensedBold';
+            background: #e4e4e4;
+        }
+
+        .progressbar li:first-child:after {
+            content: '';
+            width: 0px;
+        }
+
+        .progressbar li:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #e4e4e4;
+            top: 6px;
+            left: -55%;
+            z-index: -1;
+        }
+
+        .progressbar li.active:before {
+            background: #76ba00;
+            color: #fff;
+        }
+
+.fa-angle-down:before {
+    color: #77839a;
+}
+
+.select-wrapper input.select-dropdown {
+    border-bottom: 1px solid #dee1e0;
+    font-family: 'KrungsriCondensed';
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+.dropdown-content li, .dropdown-content li > a, .dropdown-content li > span {
+    font-family: 'KrungsriCondensedMedium';
+    font-size: 14px;
+    color: #2a2a2a;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+.selected {
+    font-family: 'KrungsriCondensedMedium' !important;
+    font-size: 14px !important;
+    color: #2a2a2a !important;
+}
+
+.questionnaire {
+    /*min-height: calc(100vh - 150px - 130px);*/
+    min-height: calc(100vh - 280px);
+}
+
+    .questionnaire .input-field .select input {
+        font-family: 'KrungsriCondensedMedium';
+        font-size: 14px;
+        color: #2a2a2a;
+    }
+
+        .questionnaire .input-field .select input::placeholder {
+            font-family: 'KrungsriCondensed';
+            font-size: 14px;
+            color: #7a7a7a;
+        }
+
+    .questionnaire .input-field .select label.active {
+        font-family: 'KrungsriCondensed';
+        font-size: 12px;
+        color: #7a7a7a;
+    }
+
+
+    .questionnaire .category {
+        font-family: 'KrungsriCondensedBold';
+        font-size: 16px;
+        color: #4d5a77;
+        line-height: 1;
+        background: #e8ebf2;
+        height: 46px;
+        font-weight: bold;
+    }
+
+        .questionnaire .category i {
+            padding-right: 8px;
+        }
+
+    .questionnaire .title {
+        padding-top: 14px;
+        padding-bottom: 11px;
+        font-family: 'KrungsriCondensedBold';
+        font-size: 16px;
+        color: #2a2a2a;
+    }
+
+
+    .questionnaire .text-bold {
+        font-family: 'KrungsriCondensedBold';
+        font-size: 12px;
+        color: #2a2a2a;
+    }
+
+    .questionnaire .text-reg {
+        font-family: 'KrungsriCondensed';
+        font-size: 12px;
+        color: #7a7a7a;
+    }
+
+    .questionnaire .confirm .row {
+        margin-bottom: 14px !important;
+    }
+
+    .questionnaire .confirm .title {
+        padding-left: 15px;
+    }
+
+    .questionnaire .confirm .label {
+        font-family: 'KrungsriCondensed';
+        font-size: 12px;
+        color: #7a7a7a;
+    }
+
+    .questionnaire .confirm .data, .questionnaire .confirm .data span {
+        font-family: 'KrungsriCondensedMedium';
+        font-size: 14px;
+        color: #2a2a2a;
+    }
+
+    .questionnaire .row.job-exp .select-wrapper input.select-dropdown {
+        text-align: center;
+    }
+
+.remark {
+    font-family: 'KrungsriCondensedMedium';
+    font-size: 12px;
+    color: #e60000;
+}
+
+.job-remark {
+    font-family: 'KrungsriCondensed';
+    font-size: 10px;
+    color: #7a7a7a;
+}
+
+.footer-text {
+    font-family: 'KrungsriCondensed';
+    font-size: 12px;
+    color: #707070;
+}
+
+    .footer-text .valign-wrapper .container .row {
+        margin-bottom: 0px;
+    }
+
+.footer-wrapper {
+    flex: 1 0 auto;
+    height: 112px;
+    border-top: solid 1px #dfe2e0;
+}
+
+    .footer-wrapper .valign-wrapper {
+        height: 112px;
+    }
+
+        .footer-wrapper .valign-wrapper .container .row {
+            margin-bottom: 0;
+        }
